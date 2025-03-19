@@ -11,7 +11,7 @@ module.exports = async (req, res) => {
     
     // 修改请求参数
     requestBody.model = 'qwen-qwq-32b';
-    requestBody.max_tokens = 15000;
+    requestBody.max_tokens = 30000;
 
     // 发送请求到Groq API
     const response = await fetch(url, {
