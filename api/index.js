@@ -11,7 +11,7 @@ module.exports = async (req, res) => {
     
     // 修改请求参数
     requestBody.model = 'moonshotai/kimi-k2-instruct';
-    requestBody.max_tokens = 30000;
+    requestBody.max_tokens = 16380;
 
     // 发送请求到Groq API
     const response = await fetch(url, {
