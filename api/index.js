@@ -10,7 +10,7 @@ module.exports = async (req, res) => {
     const requestBody = req.body;
     
     // 修改请求参数
-    requestBody.model = 'qwen/qwen3-32b';
+    requestBody.model = 'moonshotai/kimi-k2-instruct';
     requestBody.max_tokens = 30000;
 
     // 发送请求到Groq API
