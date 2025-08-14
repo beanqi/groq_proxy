@@ -10,7 +10,8 @@ module.exports = async (req, res) => {
     const requestBody = req.body;
     
     // 修改请求参数
-    requestBody.model = 'moonshotai/kimi-k2-instruct';
+    // requestBody.model = 'moonshotai/kimi-k2-instruct';
+    requestBody.model = "openai/gpt-oss-120b";
     requestBody.max_tokens = 16380;
 
     // 发送请求到Groq API
